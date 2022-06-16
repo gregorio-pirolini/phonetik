@@ -1,0 +1,30 @@
+html,body{
+    font-size: 18px;
+}
+
+ul{
+    list-style-type: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+li{float:left;
+margin-left:5px;
+margin-bottom:15px;}
+
+label {
+    display: block;
+}
+
+select{border:none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    font-size: 15px;
+}
+
+select::-ms-expand {
+    display: none;
+
+}
